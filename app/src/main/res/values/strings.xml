@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SuggestionAppAdmin</string>
+    <string name="text_date_time">Date Time</string>
+    <string name="text_suggestion">Suggestion</string>
+</resources>
