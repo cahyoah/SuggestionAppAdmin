@@ -8,6 +8,10 @@ public class Suggestion {
     private String dateTime;
     private String suggestionText;
 
+    public Suggestion(){
+
+    }
+
     public Suggestion(String dateTime, String suggestionText) {
         this.dateTime = dateTime;
         this.suggestionText = suggestionText;

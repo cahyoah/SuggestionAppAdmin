@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "14612985799",
+    "firebase_url": "https://suggestionappfirebase.firebaseio.com",
+    "project_id": "suggestionappfirebase",
+    "storage_bucket": "suggestionappfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14612985799:android:5a5487df5ac809ee",
+        "android_client_info": {
+          "package_name": "salatiga.pln.forum.adviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14612985799-d0c1f7hfmrp61hjkrkok1m93qb0vs9bt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "salatiga.pln.forum.adviceapp",
+            "certificate_hash": "bf752c3df5c302811d341d5c18a412463fa33efe"
+          }
+        },
+        {
+          "client_id": "14612985799-l76uous62lqokvo0gjqf5qptha2e9svi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7emvynuikSv5lO0LC2vMWwnVtO5OpCRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14612985799-l76uous62lqokvo0gjqf5qptha2e9svi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14612985799:android:a1c8ed63862be646",
+        "android_client_info": {
+          "package_name": "salatiga.app.suggestion.suggestionappadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14612985799-kh8s493s55d6d7fi008v73tmkuukm6sm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "salatiga.app.suggestion.suggestionappadmin",
+            "certificate_hash": "bf752c3df5c302811d341d5c18a412463fa33efe"
+          }
+        },
+        {
+          "client_id": "14612985799-l76uous62lqokvo0gjqf5qptha2e9svi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7emvynuikSv5lO0LC2vMWwnVtO5OpCRQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14612985799-l76uous62lqokvo0gjqf5qptha2e9svi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
