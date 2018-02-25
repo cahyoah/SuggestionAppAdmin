@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -28,6 +31,7 @@ public class ListSuggestionActivity extends AppCompatActivity implements ListSug
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_suggestion);
+        getSupportActionBar().setTitle("Admin SDM");
         initView();
         initPresenter();
     }
@@ -52,6 +56,27 @@ public class ListSuggestionActivity extends AppCompatActivity implements ListSug
             listSuggestionPresenter.getSuggestion();
             srlSuggestion.setRefreshing(false);  });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.item_menu, menu);
+        return true;
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.delete:
+                listSuggestionPresenter.deleteSuggestion();
+                listSuggestionPresenter.getSuggestion();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     @Override

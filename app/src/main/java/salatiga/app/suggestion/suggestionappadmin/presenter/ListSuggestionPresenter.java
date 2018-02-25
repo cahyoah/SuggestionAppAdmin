@@ -48,4 +48,9 @@ public class ListSuggestionPresenter {
     }
 
 
+    public void deleteSuggestion(){
+        databaseReference  = FirebaseDatabase.getInstance().getReference().child("suggestion");
+        databaseReference.removeValue();
+    }
+
 }
